@@ -1,0 +1,5 @@
+export const BOOKING_STATUS = {
+  RESERVED: 'RESERVED',
+  CANCELLED: 'CANCELLED',
+  ATTENDED: 'ATTENDED',
+} as const;

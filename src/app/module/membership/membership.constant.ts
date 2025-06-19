@@ -1,0 +1,5 @@
+export const MEMBERSHIP_STATUS = {
+  ACTIVE: 'ACTIVE',
+  INACTIVE: 'INACTIVE',
+  CANCELLED: 'CANCELLED',
+} as const;

@@ -1,0 +1,46 @@
+# Node modules
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.env
+
+# macOS
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+
+# Build output
+dist/
+build/
+out/
+
+# Dependency directories
+bower_components/
+jspm_packages/
+
+# dotenv environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Misc
+*.bak
+*.tmp
