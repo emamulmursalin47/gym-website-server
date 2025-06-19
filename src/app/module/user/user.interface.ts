@@ -10,5 +10,6 @@ export interface IUser {
   role: TUserRole;
   createdAt?: Date;
   updatedAt?: Date;
+comparePassword: (candidate: string) => Promise<boolean>; // Add this line!
   // Add profile fields if needed
 }

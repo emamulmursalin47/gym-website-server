@@ -1,4 +1,4 @@
-import { User } from '../User/user.model';
+import { User } from '../user/user.model';
 import { generateToken } from '../../utils/JWTHelpers';
 
 export const register = async (payload: any) => {

@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
 import catchAsync from '../../utils/catchAsync';
-import * as workoutLogService from './workLog.services';
+import * as workoutLogService from './workoutLog.services';
 import sendResponse from '../../utils/sendResponse';
 
 export const createWorkoutLog = catchAsync(async (req: Request, res: Response) => {

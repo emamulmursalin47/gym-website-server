@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import * as workoutLogController from './workLog.controller';
+import * as workoutLogController from './workoutLog.controller';
 import validateRequest from '../../middleware/validateRequest';
 import auth from '../../middleware/auth';
 import { workoutLogZodSchema } from './workoutLog.validation';

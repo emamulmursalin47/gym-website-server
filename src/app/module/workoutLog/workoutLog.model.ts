@@ -3,6 +3,7 @@ import { IWorkoutLog } from './workoutLog.interface';
 
 const workoutLogSchema = new Schema<IWorkoutLog>(
   {
+     //@ts-ignore
     user: { type: Schema.Types.ObjectId, ref: 'User', required: true },
     date: { type: Date, required: true },
     activities: [

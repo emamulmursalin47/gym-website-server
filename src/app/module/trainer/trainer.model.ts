@@ -3,6 +3,7 @@ import { ITrainer } from './trainer.interface';
 
 const trainerSchema = new Schema<ITrainer>(
   {
+     //@ts-ignore
     user: { type: Schema.Types.ObjectId, ref: 'User', required: true },
     specialties: [{ type: String }],
     bio: String,

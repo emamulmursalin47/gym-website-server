@@ -3,6 +3,7 @@ import { IMembership } from './membership.interafce';
 
 const membershipSchema = new Schema<IMembership>(
   {
+     //@ts-ignore
     user: { type: Schema.Types.ObjectId, ref: 'User', required: true },
     type: { type: String, required: true },
     startDate: { type: Date, required: true },
