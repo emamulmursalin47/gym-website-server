@@ -3,8 +3,9 @@ import cors from 'cors';
 import cookieParser from 'cookie-parser';
 
 import routes from './app/route'; // <-- Make sure this path matches your folder structure!
-import globalErrorHandler from './app/middleware/globalErrorHandler';
+
 import notFoundRoute from './app/middleware/notFoundRoute';
+import globalErrorHandler from './app/middleware/globalErrorHandler';
 
 const app = express();
 
